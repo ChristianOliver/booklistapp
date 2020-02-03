@@ -33,9 +33,9 @@ class UI {
         const container = document.querySelector('.container');
         const form = document.querySelector('#book-form');
         container.insertBefore(div, form);
-        //Vanish in 3 seconds
+        //Vanish in 12 seconds
         setTimeout(()=>document.querySelector('.alert').remove(),
-        3000)
+        12000)
     }
     static clearFields () {
         document.querySelector('#title').value='';
