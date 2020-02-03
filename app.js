@@ -35,7 +35,7 @@ class UI {
         container.insertBefore(div, form);
        
         setTimeout(()=>document.querySelector('.alert').remove(),
-        24000)
+        7000)
     }
     static clearFields () {
         document.querySelector('#title').value='';
